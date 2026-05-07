@@ -1,3 +1,11 @@
+# Alunos: 
+- Lara Geovana 22502104
+- Gabriel Rios 22505812
+- Camilla Valenzuela 22502503
+
+
+
+
 # VESTE — Moda Consciente
 
 Projeto desenvolvido para a disciplina de Desenvolvimento Web — Unidade 3: CSS e Design Responsivo.
