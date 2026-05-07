@@ -1,0 +1,168 @@
+/* =========================================
+   MOBILE FIRST — TELAS PEQUENAS
+========================================= */
+
+body {
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+header {
+  padding: 1rem;
+  flex-direction: column;
+  height: auto;
+  gap: 1rem;
+}
+
+nav ul {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .actions {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* HERO */
+.hero {
+  grid-template-columns: 1fr;
+  min-height: auto;
+}
+
+.hero-text {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.hero-text p {
+  max-width: 100%;
+}
+
+.hero-image {
+  min-height: 300px;
+}
+
+/* PRODUTOS */
+.produtos {
+  padding: 4rem 1.5rem;
+}
+
+.produtos-header {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.produtos-grid {
+  grid-template-columns: 1fr;
+}
+
+/* BANNER */
+.banner-meio {
+  grid-template-columns: 1fr;
+  padding: 4rem 1.5rem;
+  gap: 2rem;
+}
+
+/* FOOTER */
+.footer-grid {
+  grid-template-columns: 1fr;
+}
+
+.footer-bottom {
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+/* IMAGENS RESPONSIVAS */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =========================================
+   TABLET — 600px+
+========================================= */
+
+@media screen and (min-width: 600px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .produtos-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+/* =========================================
+   DESKTOP — 1024px+
+========================================= */
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    flex-direction: row;
+    height: 64px;
+    padding: 0 3rem;
+  }
+
+  nav ul {
+    flex-wrap: nowrap;
+    gap: 2.5rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr 1fr;
+    min-height: calc(100vh - 64px);
+  }
+
+  .hero-text {
+    padding: 5rem 4rem 5rem 3rem;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .produtos-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .banner-meio {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+}
