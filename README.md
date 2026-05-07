@@ -75,3 +75,13 @@ Foram utilizadas boas práticas de acessibilidade:
 - Uso de `aria-label`
 - Navegação organizada
 - Conteúdo estruturado corretamente
+
+# Ferramentas utilizadas
+
+- ChatGPT para ajudar com CSS
+prompt: "baseado no código html enviado, me de um auxilio no CSS da página."
+
+- Gemini para entender melhor como fazer o Style para os diferentes tipos de tela
+prompt: "como que eu faço uma págtina compatível com celular, tablet e desktop no mesmo código?"
+
+- Material dísponivel no espaço aluno.
